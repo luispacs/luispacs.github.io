@@ -82,18 +82,19 @@ var Typer = {
     else this.write("|"); // else write it
   },
 };
+///
+/// function replaceUrls(text) {
+///  var http = text.indexOf("http://");
+///  var space = text.indexOf(".me ", http);
 
-function replaceUrls(text) {
-  var http = text.indexOf("http://");
-  var space = text.indexOf(".me ", http);
-
-  if (space != -1) {
-    var url = text.slice(http, space - 1);
-    return text.replace(url, '<a href="' + url + '">' + url + "</a>");
-  } else {
-    return text;
-  }
-}
+///  if (space != -1) {
+///    var url = text.slice(http, space - 1);
+///    return text.replace(url, '<a href="' + url + '">' + url + "</a>");
+///  } else {
+///    return text;
+///  }
+///}
+///
 
 Typer.speed = 2;
 Typer.file = "internal.html";
