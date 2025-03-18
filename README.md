@@ -10,5 +10,5 @@ Then this website is for you.
 
 A terminal website for coders.
 
-Live Demo [here](https://rimijoker.github.io/Fake_Terminal_Resume_Website/)
-![Live website image](Screenshot.png)
+Live Demo (https://rimijoker.github.io/Fake_Terminal_Resume_Website/)
+[Live image](screenshot.png)
